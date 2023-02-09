@@ -1,9 +1,8 @@
 import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import RouteApp from './routes';
 
-function App() {
-  return (
-    <div>黑料来了</div>
-  );
+const App = () => {
+  return <RouterProvider router={RouteApp} />
 }
-
 export default App;
