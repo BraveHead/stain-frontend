@@ -13,6 +13,4 @@ const RouteConfig = [
     }
 ];
 
-console.log('RouteConfig:', RouteConfig);
-
 export default RouteConfig
