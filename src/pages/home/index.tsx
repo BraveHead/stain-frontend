@@ -3,19 +3,6 @@ import React, { useEffect } from 'react';
 const HomePage = () => {
 
     useEffect(() => {
-        const a = $ as any;
-        a(function() {
-          if(!a(".demo1")) {
-            return;
-          }
-            a(".demo1").jCarouselLite({
-                vertical: true,
-                hoverPause:true,
-                visible: 3,
-                auto:2500,
-                speed:1000
-            });
-        });
         console.log('HomePage123');
     }, [])
 
