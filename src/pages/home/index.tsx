@@ -16,7 +16,7 @@ const HomePage = () => {
                 speed:1000
             });
         });
-        console.log('HomePage');
+        console.log('HomePage123');
     }, [])
 
     return (<div className='demo1'>
